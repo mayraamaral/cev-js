@@ -11,7 +11,7 @@ Algum servidor de DNS *(domain name server)* recebe a requisição e associa a U
 Algum servidor disponível que tenha aquele endereço IP recebe e processa a requisição, devolvendo uma cópia do conteúdo requisitado ao navegador do cliente.  
 **O JS surgiu para atuar no cliente, mas hoje também funciona no ambiente dos servidores.**
 
-## Website, HTMl, CSS e JS
+## Website, HTML, CSS e JS
 HTML -> Organiza o conteúdo  
 CSS -> Organiza a **disposição** do conteúdo e **estiliza**  
 JS -> interage diretamente com o usuário de acordo com as ações dele  
@@ -24,14 +24,15 @@ O Youtube é diretamente dependente do JavaScript.
 <div style="text-align:center">
     <img src="img/linha-do-tempo.png">
 </div>
+
 **1970** - DARPA, MIT e UC criaram a Arpanet com fins científicos e acadêmicos.  
 A Arpanet se transformou na Internet.  
 **1993** - Tim criou HTML, HTTP e WWW. Surge o MOSAIC, criado pela NCSA.  
-**1994** - Surge a NetScape.
+**1994** - Surge a NetScape.  
 **1995** - Godzilla -> Mozilla.  
 NetScape cria o MOCA.  
 MOCA ia se chamar LiveScript, mas devido a popularidade de Java, chamaram de JavaScript como jogada de marketing.  
-Microsoft cria o JScript após o sucesso do JavaScript.
+Microsoft cria o JScript após o sucesso do JavaScript.  
 Windows 95 passa a conter nativamente o Internet Explorer, que foi construído sobre o falecido MOSAIC após a Microsoft comprá-lo.  
 **1997** - A NetScape padroniza o JavaScript para evitar o plágio. A ECMA padroniza o JS e o JavaScript passa a se chamar ECMAScript.  
 **2002** - NetScape faliu e criou o Mozilla Firefox.  
