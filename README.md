@@ -4,7 +4,9 @@ Ministrado pelo prof. Gustavo Guanabara.
 
 ## Cliente x Servidor
 <p align="center">
-    <img src="img/cliente-servidor.png">
+    <img src="img/cliente-servidor.png" alt="Cliente x Servidor na Web">
+    Fonte da imagem: Autoria própria (2020).
+    Créditos do designers autores das ilustrações na própria imagem.
 </p>
 O cliente envia uma requisição para acessar o conteúdo (através da URL).  
 Algum servidor de DNS *(domain name server)* recebe a requisição e associa a URL a um IP e envia a requisição aos servidores com aquele endereço IP.  
@@ -24,6 +26,7 @@ O Youtube é diretamente dependente do JavaScript.
 ## Linha do tempo
 <p align="center">
     <img src="img/linha-do-tempo.png">
+    Fonte da imagem: Curso de JS do Curso e Vídeo - Aula 02.
 </p>
 
 **1970** - DARPA, MIT e UC criaram a Arpanet com fins científicos e acadêmicos.  
