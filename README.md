@@ -3,9 +3,9 @@ Ministrado pelo prof. Gustavo Guanabara.
 [Curso de JS do Curso em Vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 
 ## Cliente x Servidor
-<div style="text-align:center">
-    <img src="img/Cliente-e-servidor.png">
-</div>
+<p style="align:center">
+    <img src="img/cliente-servidor.png">
+</p>
 O cliente envia uma requisição para acessar o conteúdo (através da URL).  
 Algum servidor de DNS *(domain name server)* recebe a requisição e associa a URL a um IP e envia a requisição aos servidores com aquele endereço IP.  
 Algum servidor disponível que tenha aquele endereço IP recebe e processa a requisição, devolvendo uma cópia do conteúdo requisitado ao navegador do cliente.  
@@ -21,9 +21,9 @@ HTML e CSS não rodam nada. (Exemplo de Brian Holt: imagine o seu artigo, o seu 
 Com aumento da velocidade da internet o JavaScript se tornou mais popular e mais usado, pois antigamente com as baixas velocidades de internet (100kb/s) os sites usavam apenas HTML e às vezes CSS, pois assim o conteúdo chegava mais facilmente aos usuários.  
 O Youtube é diretamente dependente do JavaScript.  
 ## Linha do tempo
-<div style="text-align:center">
+<p style="align:center">
     <img src="img/linha-do-tempo.png">
-</div>
+</p>
 
 **1970** - DARPA, MIT e UC criaram a Arpanet com fins científicos e acadêmicos.  
 A Arpanet se transformou na Internet.  
