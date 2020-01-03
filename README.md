@@ -3,9 +3,40 @@ Ministrado pelo prof. Gustavo Guanabara.
 [Curso de JS do Curso em Vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 
 ## Cliente x Servidor
-<img src="Cliente_e_servidor.png" style="margin: auto;">
+<div style="text-align:center">
+    <img src="img/Cliente-e-servidor.png">
+</div>
+O cliente envia uma requisição para acessar o conteúdo (através da URL).  
+Algum servidor de DNS *(domain name server)* recebe a requisição e associa a URL a um IP e envia a requisição aos servidores com aquele endereço IP.  
+Algum servidor disponível que tenha aquele endereço IP recebe e processa a requisição, devolvendo uma cópia do conteúdo requisitado ao navegador do cliente.  
+**O JS surgiu para atuar no cliente, mas hoje também funciona no ambiente dos servidores.**
 
-
+## Website, HTMl, CSS e JS
+HTML -> Organiza o conteúdo  
+CSS -> Organiza a **disposição** do conteúdo e **estiliza**  
+JS -> interage diretamente com o usuário de acordo com as ações dele  
+  
+HTML e CSS não rodam nada. (Exemplo de Brian Holt: imagine o seu artigo, o seu artigo não executa nada, ele apenas dispõe o conteúdo)  
+  
+Com aumento da velocidade da internet o JavaScript se tornou mais popular e mais usado, pois antigamente com as baixas velocidades de internet (100kb/s) os sites usavam apenas HTML e às vezes CSS, pois assim o conteúdo chegava mais facilmente aos usuários.  
+O Youtube é diretamente dependente do JavaScript.  
+## Linha do tempo
+<div style="text-align:center">
+    <img src="img/linha-do-tempo.png">
+</div>
+**1970** - DARPA, MIT e UC criaram a Arpanet com fins científicos e acadêmicos.  
+A Arpanet se transformou na Internet.  
+**1993** - Tim criou HTML, HTTP e WWW. Surge o MOSAIC, criado pela NCSA.  
+**1994** - Surge a NetScape.
+**1995** - Godzilla -> Mozilla.  
+NetScape cria o MOCA.  
+MOCA ia se chamar LiveScript, mas devido a popularidade de Java, chamaram de JavaScript como jogada de marketing.  
+Microsoft cria o JScript após o sucesso do JavaScript.
+Windows 95 passa a conter nativamente o Internet Explorer, que foi construído sobre o falecido MOSAIC após a Microsoft comprá-lo.  
+**1997** - A NetScape padroniza o JavaScript para evitar o plágio. A ECMA padroniza o JS e o JavaScript passa a se chamar ECMAScript.  
+**2002** - NetScape faliu e criou o Mozilla Firefox.  
+**2008** - Surge o Google Chrome.  
+**2009** - Surge a V8 que roda JavaScript nos navegadores do Chrome.  
 
 ## Chrome e V8
 O V8 é um motor criado pela Google para interpretar os códigos JS dentro do ambiente do Google Chrome.
