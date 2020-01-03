@@ -26,7 +26,7 @@ O Youtube é diretamente dependente do JavaScript.
 ## Linha do tempo
 <p align="center">
     <img src="img/linha-do-tempo.png"> <br />
-    Fonte da imagem: Curso de JS do Curso e Vídeo - Aula 02.
+    Fonte da imagem: Curso de JS do Curso em Vídeo - Aula 02.
 </p>
 
 **1970** - DARPA, MIT e UC criaram a Arpanet com fins científicos e acadêmicos.  
