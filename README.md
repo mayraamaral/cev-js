@@ -3,12 +3,13 @@ Ministrado pelo prof. Gustavo Guanabara.
 [Curso de JS do Curso em Vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 
 ## Cliente x Servidor
-<p style="align:center">
+<p align="center">
     <img src="img/cliente-servidor.png">
 </p>
 O cliente envia uma requisição para acessar o conteúdo (através da URL).  
 Algum servidor de DNS *(domain name server)* recebe a requisição e associa a URL a um IP e envia a requisição aos servidores com aquele endereço IP.  
 Algum servidor disponível que tenha aquele endereço IP recebe e processa a requisição, devolvendo uma cópia do conteúdo requisitado ao navegador do cliente.  
+
 **O JS surgiu para atuar no cliente, mas hoje também funciona no ambiente dos servidores.**
 
 ## Website, HTML, CSS e JS
@@ -21,7 +22,7 @@ HTML e CSS não rodam nada. (Exemplo de Brian Holt: imagine o seu artigo, o seu 
 Com aumento da velocidade da internet o JavaScript se tornou mais popular e mais usado, pois antigamente com as baixas velocidades de internet (100kb/s) os sites usavam apenas HTML e às vezes CSS, pois assim o conteúdo chegava mais facilmente aos usuários.  
 O Youtube é diretamente dependente do JavaScript.  
 ## Linha do tempo
-<p style="align:center">
+<p align="center">
     <img src="img/linha-do-tempo.png">
 </p>
 
