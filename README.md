@@ -4,7 +4,7 @@ Ministrado pelo prof. Gustavo Guanabara.
 
 ## Cliente x Servidor
 <p align="center">
-    <img src="img/cliente-servidor.png" alt="Cliente x Servidor na Web">
+    <img src="img/cliente-servidor.png" alt="Cliente x Servidor na Web"> <br />
     Fonte da imagem: Autoria própria (2020).
     Créditos do designers autores das ilustrações na própria imagem.
 </p>
@@ -25,7 +25,7 @@ Com aumento da velocidade da internet o JavaScript se tornou mais popular e mais
 O Youtube é diretamente dependente do JavaScript.  
 ## Linha do tempo
 <p align="center">
-    <img src="img/linha-do-tempo.png">
+    <img src="img/linha-do-tempo.png"> <br />
     Fonte da imagem: Curso de JS do Curso e Vídeo - Aula 02.
 </p>
 
