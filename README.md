@@ -25,7 +25,7 @@ Com aumento da velocidade da internet o JavaScript se tornou mais popular e mais
 O Youtube é diretamente dependente do JavaScript.  
 ## Linha do tempo
 <p align="center">
-    <img src="img/linha-do-tempo.png"> <br />
+    <img src="img/linha-do-tempo.png" alt="Linha do tempo do JS"> <br />
     Fonte da imagem: Curso de JS do Curso em Vídeo - Aula 02.
 </p>
 
@@ -59,7 +59,7 @@ Ou a nova forma:
 ``` `O aluno ${nome} com ${idade} tirou a nota ${nota}` ```
   
 ## Árvore DOM
-<div align="center" height="400px">
+<div align="center" alt="Árvore DOM" height="400">
     <img src="img/domtree.png"> <br />
     Créditos da imagem: Curso de JS do Curso em Vídeo - Aula 09.
 </div>
