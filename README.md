@@ -59,7 +59,7 @@ Ou a nova forma:
 ``` `O aluno ${nome} com ${idade} tirou a nota ${nota}` ```
   
 ## Árvore DOM
-<div align="center" alt="Árvore DOM" height="400">
-    <img src="img/domtree.png"> <br />
+<div align="center">
+    <img src="img/domtree.png" alt="Árvore DOM" height="400"> <br />
     Créditos da imagem: Curso de JS do Curso em Vídeo - Aula 09.
 </div>
