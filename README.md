@@ -5,7 +5,7 @@ Ministrado pelo prof. Gustavo Guanabara.
 ## Cliente x Servidor
 <p align="center">
     <img src="img/cliente-servidor.png" alt="Cliente x Servidor na Web"> <br />
-    Fonte da imagem: Autoria própria (2020).
+    Fonte da imagem: Autoria própria (2020). <br />
     Créditos do designers autores das ilustrações na própria imagem.
 </p>
 O cliente envia uma requisição para acessar o conteúdo (através da URL).  
@@ -59,7 +59,7 @@ Ou a nova forma:
 ``` `O aluno ${nome} com ${idade} tirou a nota ${nota}` ```
   
 ## Árvore DOM
-<p align="center">
+<div align="center" height="400px">
     <img src="img/domtree.png"> <br />
     Créditos da imagem: Curso de JS do Curso em Vídeo - Aula 09.
-</p>
+</div>
