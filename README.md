@@ -4,7 +4,7 @@ Ministrado pelo prof. Gustavo Guanabara.
 
 ## Cliente x Servidor
 <p align="center">
-    <img src="img/cliente-servidor.png" alt="Cliente x Servidor na Web"> <br />
+    <img src="img/cliente-servidor.png" alt="Cliente x Servidor na Web"> <br /> <br />
     Fonte da imagem: Autoria própria (2020). <br />
     Créditos do designers autores das ilustrações na própria imagem.
 </p>
