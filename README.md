@@ -56,4 +56,10 @@ Existem dois jeitos, o já comum:
   
 Ou a nova forma:  
   
-``` `O aluno $(nome) com $(idade) tirou a nota $(nota)` ```
+``` `O aluno ${nome} com ${idade} tirou a nota ${nota}` ```
+  
+## Árvore DOM
+<p align="center">
+    <img src="img/domtree.png"> <br />
+    Créditos da imagem: Curso de JS do Curso em Vídeo - Aula 09.
+</p>
