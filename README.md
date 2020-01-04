@@ -63,3 +63,7 @@ Ou a nova forma:
     <img src="img/domtree.png" alt="Árvore DOM" height="400"> <br />
     Créditos da imagem: Curso de JS do Curso em Vídeo - Aula 09.
 </div>
+
+## Object Events
+Os eventos no objeto são tudo aquilo que pode acontecer com o objeto. Os mais comuns são interações com mouse.  
+[Referência - MDN](https://developer.mozilla.org/pt-BR/docs/Web/Events)
