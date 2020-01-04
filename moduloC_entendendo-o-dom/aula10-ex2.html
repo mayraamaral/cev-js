@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula 10 - Ex 2</title>
+    <style>
+    
+        input {
+            font: normal 16pt Arial;
+            width: 200px;
+            border-radius: 7px;
+        }
+        #b-soma {
+            background: green;
+            color: white;
+            border-radius: 7px;
+            border: none;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Somando números</h1>
+    <input type="number" name="texto1" id="texto1" />
+    <input type="number" name="texto2" id="texto2" />
+    <input type="button" value="Somar" onclick="somar()" id="b-soma"/> <br />
+    <div id="resultado">Resultado</div>
+
+    <script>
+        
+        function somar(){
+
+            /* NAO FUNCIONOU
+             * var n1 = Number(document.querySelector('input#texto1'));
+             * var n2 = Number(document.querySelector('input#texto2'));
+             */
+
+            /*
+             * var numero1 = document.getElementById('texto1');
+             * var numero2 = document.getElementById('texto2');
+             */
+            
+            var tn1 = document.querySelector('input#texto1');
+            var tn2 = document.querySelector('input#texto2');
+            var n1 = Number(tn1.value);
+            var n2 = Number(tn2.value);
+
+            var soma = n1+n2;
+
+            var result = document.querySelector('div#resultado');
+
+            result.innerHTML = `A soma é: ${soma}`;
+
+        }
+    
+    </script>
+</body>
+</html>

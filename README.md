@@ -2,6 +2,16 @@
 Ministrado pelo prof. Gustavo Guanabara.  
 [Curso de JS do Curso em Vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 
+## Guia
+* Módulo A - Conhecendo o JS
+[Exercícios das aulas](https://github.com/mayraamaral/cev-js/tree/master/moduloA_conhecendo-o-js)
+* Módulo B - Comandos Básicos
+[Exercícios das aulas](https://github.com/mayraamaral/cev-js/tree/master/moduloB_comandos-basicos)
+* Módulo C - Entendendo o DOM
+[Exercícios das aulas](https://github.com/mayraamaral/cev-js/tree/master/moduloC_entendendo-o-dom)
+* Mini-projetos
+[Mini-projetos que eu construí a partir do curso](https://github.com/mayraamaral/cev-js/tree/master/projetos)
+
 ## Cliente x Servidor
 <p align="center">
     <img src="img/cliente-servidor.png" alt="Cliente x Servidor na Web"> <br /> <br />

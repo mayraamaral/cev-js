@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bhaskara</title>
+
+    <style>
+        body {
+            background-color:rgba(25, 75, 72, 0.733);
+            color: white;
+        }
+        
+        .input-a {
+            float: left;
+            
+        }
+        .input-b {
+            float: left;
+            
+        }
+        .input-c {
+            float: left;
+
+        }
+
+        #result {
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 7px;
+            width: 180px;
+            height: 30px;
+            background-color: green;
+            color: white;
+            font-weight: bold;
+        }
+        .resultado {
+            border: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Bhaskara</h1>
+    <div class="inputs">
+        <div class="input-a">
+            <p>Digite A:</p>
+            <input type="number" name="a" id="a" />
+        </div>
+        <div class="input-b">
+            <p>Digite B:</p>
+            <input type="number" name="b" id="b" />
+        </div>
+        <div class="input-c">
+            <p>Digite C:</p>
+            <input type="number" name="c" id="c" />
+        </div>
+    </div>
+    <br /> <br />
+    <input type="button" value="Obter resultado" onclick="result()" id="result" />
+    <br />
+
+    <div class="resultados">
+        <p id="resultado">Resultado</p>
+        <p id="delta">Delta</p>
+        <p id="raiz">Raiz de delta</p>
+    </div>
+    
+    <script>
+
+        function result(){
+
+            var ta = document.querySelector('input#a');
+            var tb = document.querySelector('input#b');
+            var tc = document.querySelector('input#c');
+            /* Converte as strings para numeros: */
+            var a = Number(ta.value);
+            var b = Number(tb.value);
+            var c = Number(tc.value);
+
+            var delta = b**2 - 4*a*c;
+
+            var d = document.querySelector('p#delta');
+            d.innerHTML = `Valor de delta: ${delta}`;
+
+            raizDeDelta = Math.sqrt(delta); 
+
+            var r = document.querySelector('p#raiz');
+            r.innerHTML = `Valor da raiz de delta: ${raizDeDelta}`;         
+
+            var x1 = ((-b) - raizDeDelta)/(2*a);
+            var x2 = ((-b) + raizDeDelta)/(2*a);
+
+            var res = document.querySelector('p#resultado');
+            res.innerHTML = `X1 = ${x1} e X2 = ${x2}`;
+
+        }
+
+    </script>
+    
+</body>
+</html>

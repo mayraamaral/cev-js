@@ -14,7 +14,15 @@
             line-height: 200px;
             text-align: center;
         }
-    
+        #area-2 {
+            background: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
@@ -23,10 +31,24 @@
     </div>
 
     <script>
+        var a = document.getElementById('area');
+        a.addEventListener('click', clicar);
+        a.addEventListener('mouseenter', entrar);
+        a.addEventListener('mouseout', sair);
+        
         function clicar(){
-            
-
+            a.innerText = 'Clicou';
+            a.style.background = 'green';            
         }
+        function entrar(){
+            a.innerText = 'Entrou';
+            a.style.background = 'blue';
+        }
+        function sair(){
+            a.innerText = 'Saiu';
+            a.style.background = 'red';
+        }
+        /* Dá pra usar onmouseout no body e fazer um pop-up como os sites fazem? */
     </script>
 
 </body>
